@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "recat app food app",
   "scripts": {
-    "start": "npx parcel index.html",
-    "dev": "npx parcel index.html",
+    "start": "parcel index.html",
+    "dev": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -24,5 +24,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
